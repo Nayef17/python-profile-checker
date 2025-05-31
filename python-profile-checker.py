@@ -6,3 +6,7 @@ graduated = str(input("Graduated? YES or NO: "))
 
 if Age < 25 and GPA >= 3.5 and graduated == "Yes":
     print("You are eligible for the scholarship")
+elif Age < 30 or GPA >= 2.5:
+    print("You are eligible for the Internship")
+else:
+    print("You are not eligible for any of the programs")
